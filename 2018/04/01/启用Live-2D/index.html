@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>关于Live 2D | QXQ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="小博客开启live 2D采用插件hexo-helper-live2d 作者：EYHN 中文版教程 拓展：一些实用模型 犬の窝Wordpress版插件地址：https://www.fczbl.vip/946.html 单33单服装版本： https://github.com/xb2016/33-live2d-wp 2233可换装版本： https://github.com/xb2016/poster">
+  <meta name="description" content="小博客开启live 2D 采用插件hexo-helper-live2d 作者：EYHN 中文版教程 拓展：一些实用模型 犬の窝Wordpress版插件地址：https://www.fczbl.vip/946.html 单33单服装版本： https://github.com/xb2016/33-live2d-wp 2233可换装版本： https://github.com/xb2016/poste">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于Live 2D">
 <meta property="og:url" content="http://yoursite.com/2018/04/01/启用Live-2D/index.html">
 <meta property="og:site_name" content="QXQ">
-<meta property="og:description" content="小博客开启live 2D采用插件hexo-helper-live2d 作者：EYHN 中文版教程 拓展：一些实用模型 犬の窝Wordpress版插件地址：https://www.fczbl.vip/946.html 单33单服装版本： https://github.com/xb2016/33-live2d-wp 2233可换装版本： https://github.com/xb2016/poster">
+<meta property="og:description" content="小博客开启live 2D 采用插件hexo-helper-live2d 作者：EYHN 中文版教程 拓展：一些实用模型 犬の窝Wordpress版插件地址：https://www.fczbl.vip/946.html 单33单服装版本： https://github.com/xb2016/33-live2d-wp 2233可换装版本： https://github.com/xb2016/poste">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2018-08-20T14:17:19.011Z">
+<meta property="og:updated_time" content="2018-08-22T11:45:06.478Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于Live 2D">
-<meta name="twitter:description" content="小博客开启live 2D采用插件hexo-helper-live2d 作者：EYHN 中文版教程 拓展：一些实用模型 犬の窝Wordpress版插件地址：https://www.fczbl.vip/946.html 单33单服装版本： https://github.com/xb2016/33-live2d-wp 2233可换装版本： https://github.com/xb2016/poster">
+<meta name="twitter:description" content="小博客开启live 2D 采用插件hexo-helper-live2d 作者：EYHN 中文版教程 拓展：一些实用模型 犬の窝Wordpress版插件地址：https://www.fczbl.vip/946.html 单33单服装版本： https://github.com/xb2016/33-live2d-wp 2233可换装版本： https://github.com/xb2016/poste">
   
     <link rel="alternative" href="/atom.xml" title="QXQ" type="application/atom+xml">
   
@@ -176,9 +176,37 @@
         
       </header>
     
+    <!-- 目录内容 -->
+
+    <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+          <span class="btn-bg"></span>
+          <span class="btn-text">文章导航</span>
+          </p>
+	<div id="toc-article" class="toc-article">
+	    <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+		<strong class="toc-title">文章目录</strong>
+           <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#采用插件"><span class="toc-number">1.</span> <span class="toc-text">采用插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#拓展："><span class="toc-number">2.</span> <span class="toc-text">拓展：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#犬の窝Wordpress版插件"><span class="toc-number">3.</span> <span class="toc-text">犬の窝Wordpress版插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#保罗酱Typecho插件-Pio"><span class="toc-number">4.</span> <span class="toc-text">保罗酱Typecho插件(Pio)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#广树酱emlog插件-伊斯特瓦尔"><span class="toc-number">5.</span> <span class="toc-text">广树酱emlog插件(伊斯特瓦尔)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#FGHRSH酱Z-Blog-PHP插件-Pio-amp-Tia"><span class="toc-number">6.</span> <span class="toc-text">FGHRSH酱Z-Blog PHP插件(Pio&amp;Tia)</span></a></li></ol>
+         </div>
+   <script type="text/javascript">
+	function showToc(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:block");
+		show_toc_btn.setAttribute("style","display:none");
+		};
+	function showBtn(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:none");
+		show_toc_btn.setAttribute("style","display:block");
+		};
+   </script>
+      
+<!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>小博客开启live 2D</strong><br>采用插件<br><strong><a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></strong></p>
+        <p><strong>小博客开启live 2D</strong></p>
+<h2 id="采用插件"><a href="#采用插件" class="headerlink" title="采用插件"></a>采用插件</h2><p><strong><a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></strong></p>
 <p>作者：<a href="https://huaji8.top" target="_blank" rel="noopener">EYHN</a></p>
 <p>中文版<a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md" target="_blank" rel="noopener">教程</a></p>
 <h2 id="拓展："><a href="#拓展：" class="headerlink" title="拓展："></a>拓展：</h2><p>一些实用<a href="https://huaji8.top/post/live2d-plugin-2.0/" target="_blank" rel="noopener">模型</a></p>
@@ -325,13 +353,26 @@
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#采用插件"><span class="toc-number">1.</span> <span class="toc-text">采用插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#拓展："><span class="toc-number">2.</span> <span class="toc-text">拓展：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#犬の窝Wordpress版插件"><span class="toc-number">3.</span> <span class="toc-text">犬の窝Wordpress版插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#保罗酱Typecho插件-Pio"><span class="toc-number">4.</span> <span class="toc-text">保罗酱Typecho插件(Pio)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#广树酱emlog插件-伊斯特瓦尔"><span class="toc-number">5.</span> <span class="toc-text">广树酱emlog插件(伊斯特瓦尔)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#FGHRSH酱Z-Blog-PHP插件-Pio-amp-Tia"><span class="toc-number">6.</span> <span class="toc-text">FGHRSH酱Z-Blog PHP插件(Pio&amp;Tia)</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
 
 
   
-  
+
   
 
   
