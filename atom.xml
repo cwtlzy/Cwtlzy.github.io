@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-29T11:23:24.200Z</updated>
+  <updated>2018-10-02T16:24:39.543Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>国庆节</title>
+    <link href="http://yoursite.com/2018/10/01/10.1/"/>
+    <id>http://yoursite.com/2018/10/01/10.1/</id>
+    <published>2018-09-30T16:00:00.000Z</published>
+    <updated>2018-10-02T16:24:39.543Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;祝伟大的祖国母亲69岁生日快乐！&quot;&gt;&lt;a href=&quot;#祝伟大的祖国母亲69岁生日快乐！&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>AE 让光书写文字</title>
@@ -69,7 +91,7 @@
     <link href="http://yoursite.com/2018/01/16/Hello%20World/"/>
     <id>http://yoursite.com/2018/01/16/Hello World/</id>
     <published>2018-01-15T16:00:00.000Z</published>
-    <updated>2018-08-20T14:14:42.523Z</updated>
+    <updated>2018-10-02T16:24:41.817Z</updated>
     
     <summary type="html">
     
@@ -80,13 +102,13 @@
           &lt;p&gt;这是第一遍文章&lt;/p&gt;
 &lt;p&gt;第一个个人Blog&lt;/p&gt;
 &lt;p&gt;小萌新一枚&lt;/p&gt;
-&lt;p&gt;在生日这天上线&lt;/p&gt;
+&lt;p&gt;今天上线&lt;/p&gt;
 &lt;p&gt;不足之处还有很多&lt;/p&gt;
 &lt;p&gt;希望能运行到永远&lt;/p&gt;
 &lt;p&gt;还请多多努力&lt;/p&gt;
 &lt;p&gt;就酱&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;本博客托管于&lt;
+&lt;li&gt;&lt;strong&gt;本博客托管于&lt;a
         
       
     
